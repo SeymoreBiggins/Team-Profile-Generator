@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Application that takes command line user input and outputs HTML team profiles.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.10.0",
+    "inquirer": "^7.3.3",
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeymoreBiggins/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeymoreBiggins/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/SeymoreBiggins/Team-Profile-Generator#readme"
+}
