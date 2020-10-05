@@ -83,10 +83,25 @@ function addTeamMembers(){
     {
       type: "list",
       message: "Would you like to add additional team members?",
-      choices: ["Engineer","Intern","No additional teammates"],
+      choices: ["Engineer","Intern","No additional team members"],
       name: "addMember"
     }
   ])
+  .then(data => {
+
+    switch (data.addMemberData) {
+      case "Engineer":
+        addEngineer();
+        break;
+
+      case "Intern":
+        addIntern();
+        break;
+      case "No additional team members":
+        compileTeam();
+        break;
+    }
+  });
 }
 
 // Run Program
